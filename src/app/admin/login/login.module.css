@@ -1,0 +1,110 @@
+
+.fixed_height{
+    height: 100vh;    
+}
+.form_card{
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.login_containers{
+    padding: 4.5rem 1rem;
+}
+.login_containers2{
+    padding: 30px;
+    border-radius: 60px 0 0 60px;
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+}
+.input_container{
+    margin-bottom: 1rem;
+}
+
+.submit_button{
+    padding: 9.5px;
+    text-align: center;
+    font-size: 16.5px;
+    font-weight: 500;
+    margin-top: 2rem;
+    border-radius: 5px; 
+    transition: ease-in-out all .2s; 
+    border: 1.8px solid var(--primaryBeige);
+    background-color: transparent;
+    color:var(--primaryBeige);
+}
+.submit_button:hover{
+    background-color: var(--primaryBeige);
+    color: var(--primaryPurple);
+}
+
+
+.input_container label{
+    font-size: 16.5px;
+    font-weight: 400;
+}
+.input_container input{
+    padding: 9px 15px;
+    outline: none;
+    background-color: var(--primaryBeige);
+    border: 1.8px solid var(--primaryBeige);
+    font-size: 16px;
+    color: var(--primaryPurple);
+    overflow: hidden;
+}
+.input_container input:focus{
+    outline: none; 
+    box-shadow: none;
+    background-color: var(--primaryBeige);
+    border-color: var(--primaryBeige);
+}
+
+.welcomeBack{
+    font-size: 35px;
+}
+
+.showPass{
+    position: absolute;
+    top: 34px;
+    font-size: 20px;
+    right: 14px;
+    color: var(--primaryPurple);
+    cursor: pointer;
+}
+.loginLogos{
+    width: 100%;
+    max-width: 200px;
+}
+ 
+@media (max-width:768px){
+
+    .logintext{
+        margin-bottom: 1rem;
+    }
+    .login_containers2{
+        height: fit-content !important;
+        padding: 20px;
+        border-radius: 0px 0 0 0px;
+        background: transparent !important;
+    }
+    .login_containers{
+        padding: 0rem 0rem;
+    }
+    .loginLogos{ 
+        max-width: 170px;
+    }
+    .form_card{
+        background: var(--primaryBeige);
+        border: 1px solid var(--primaryBeige);
+        padding: 3rem 30px;
+    }
+    .welcomeBack{
+        font-size: 25px !important;
+    }
+}
+
+ 
+@media (max-width:568px){ 
+.loginLogos{ 
+    max-width: 150px;
+}
+}

@@ -1,0 +1,122 @@
+
+.bannerImg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+} 
+.bannerContaner{   background: var(--primaryPurple); }
+.sliders{
+    height: 1007px; 
+    opacity: 1; 
+}
+
+.prevButton{
+  display:  inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2.3px solid var(--primaryBeige);
+  color: var(--primaryBeige);
+  font-weight: var(--fw-600);
+  border-radius: 50%;
+  font-size: 24px; 
+}
+
+.bannerHeaderContant{
+    width: 100%;
+    max-width: 910px;
+    height: 240px;
+    position: relative;
+    top: 200px;
+    margin:  0 auto; 
+    text-align: center;
+    color: var(--lightNeutral);
+    letter-spacing: -0.23px;
+     letter-spacing: var(--unnamed-character-spacing--0-18);
+     text-transform: capitalize;  
+}
+
+.slider_img_container{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%; 
+    transform: translateX(-50%);   
+}
+.bannerFooterContant{
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto 20px auto; 
+    text-align: center;
+    color: var(--primaryBeige);  
+    letter-spacing: var(--unnamed-character-spacing--0-18);
+    text-transform: capitalize;
+}
+
+.bannerFooterContant h3{
+  font-weight: 100 !important;
+}
+.cleanTex{color: var(--mutedLavender);} 
+.banner_counter{
+  top: 100px;
+  right: 0;
+  position: absolute;
+  color: var(--midPurple);
+} 
+@media (max-width:500px){
+    .bannerHeaderContant{
+      max-width: 385px;
+      margin: 0;
+      top: 70px;
+      padding: 0 2rem;
+    }
+    .bannerHeaderContant h2{
+      font-size: 30px !important;
+      font-weight: 300 !important;
+      text-align: left;
+      line-height: 42px !important;
+    }
+    .banner_counter{
+      right: 65px;
+      top: 25px;
+    }
+
+    .prevButton{ 
+      width: 40px;
+      height: 40px; 
+  }
+  .bannerImg{
+    width: 100%;
+    max-height: 600px;
+  }
+
+  .sliders{
+    height: 720px; 
+  }
+  .sliderImg4{
+    max-width: 100% !important;
+    height: 300px !important;
+  } 
+}
+
+@media (max-width:400px){ 
+    .bannerHeaderContant h2{
+      font-size: 25px !important; 
+      line-height: 32px !important;
+    }
+  .prevButton{ 
+      width: 35px;
+      height: 35px; 
+  }
+
+  .bannerImg{
+    width: 100%;
+    max-height: 500px;
+  }
+ 
+  .sliderImg4{ 
+    height: 250px !important;
+  }
+    
+}
+ 

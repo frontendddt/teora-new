@@ -1,0 +1,232 @@
+.angled_section {
+   height: 300px;
+   position: relative;
+   top: -1px;
+   /* This creates the diagonal border */
+   clip-path: polygon(0 0, 100% 0%, 71% 100%, 50% 70%);
+}
+
+.titleColor {
+   color: var(--primaryBeige) !important;
+}
+.titleColor h1 {
+   color: var(--primaryBeige) !important;
+}
+.titleColor span,
+.titleColor svg {
+   color: var(--primaryBeige) !important;
+}
+.controllerStyle {
+   border-color: var(--primaryBeige) !important;
+}
+.controllerStyle > div {
+   border-color: var(--primaryBeige) !important;
+}
+.sizes {
+   font-size: 17.2px !important;
+   line-height: 23px !important;
+}
+
+/* CoreBenefitsSection styles start */
+.circalAria {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   position: relative;
+   z-index: 1;
+}
+.rowfixed {
+   top: 4rem;
+}
+/* CoreBenefitsSection styles end */
+
+.desctopImage {
+   position: absolute;
+   top: 50px;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   z-index: 1;
+}
+
+/* you can move style for seprate */
+.countscroll {
+   display: flex;
+   gap: 10px;
+   width: fit-content;
+   align-items: center;
+   padding: 0 5px;
+   border: 2.5px solid var(--primaryBeige);
+   border-radius: 10px;
+   height: 50px;
+}
+.countscroll2 {
+   border-color: var(--purpleColor) !important;
+}
+.values2 {
+   border-color: var(--purpleColor) !important;
+}
+.values {
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   border: 2.5px solid var(--primaryBeige);
+   font-size: 22px !important;
+   font-weight: 700;
+}
+
+.slicky_p {
+   padding: 1.6rem 0 0 1.6rem;
+}
+.infocard {
+   font-size: 17px !important;
+}
+.swipimg img {
+   width: auto !important;
+}
+.solaqbillionImage {
+   max-width: 420px !important;
+   height: 600px !important;
+}
+
+/* mouse scroll styles start */
+
+.scrollingCard {
+   padding: 3rem;
+   width: 100%;
+   height: 550px;
+   margin: 0.5rem;
+   border-radius: 35px;
+   overflow: hidden;
+}
+
+.slideText p {
+   font-size: 16px;
+}
+.icontext h5 {
+   font-size: 17px !important;
+   line-height: 20px !important;
+}
+
+.icontext span {
+   font-size: 14px;
+   display: inline-block;
+   line-height: 16px !important;
+}
+.animalImage {
+   width: 100%;
+   height: 900px !important;
+}
+.indexingPaddings {
+   top: -80px;
+}
+
+/* mouse scroll styles end */
+
+@media (max-width: 1556px) {
+   .desctopImage > div {
+      width: 50%;
+      height: 650px !important;
+   }
+}
+@media (max-width: 991px) {
+   .desctopImage > div {
+      width: 40%;
+      height: 550px !important;
+   }
+   .animalImage {
+      height: 650px !important;
+   }
+   .stickSwiper_img {
+      width: 100% !important;
+   }
+}
+
+@media (max-width: 767px) {
+   .desctopImage {
+      position: relative;
+      top: -50px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .desctopImage > div {
+      width: 40%;
+      height: 450px !important;
+   }
+   .slicky_p {
+      padding: 0.2rem 0 0 0rem;
+      font-size: 15.5px !important;
+      line-height: 25px !important;
+   }
+   .slicky_p p {
+      font-size: 15.5px !important;
+      line-height: 25px !important;
+   }
+   .animalImage {
+      height: 500px !important;
+   }
+   .growing {
+      width: 200px !important;
+   }
+   .stickSwiper_img {
+      width: 70% !important;
+      height: 200px !important;
+   }
+
+   .rowfixed {
+      top: 10rem;
+   }
+}
+@media (max-width: 576px) {
+   .desctopImage {
+      top: 0;
+   }
+   .animalImage {
+      height: 300px !important;
+   }
+   .desctopImage > div {
+      width: 80% !important;
+      height: 450px !important;
+   }
+   .solaqbillionImage {
+      height: 510px !important;
+   }
+   .indexingPaddings {
+      top: 20px;
+   }
+
+   .icontext h5 {
+      font-size: 15px !important;
+   }
+   .icontext span {
+      font-size: 12px;
+      font-weight: 600 !important;
+   }
+}
+
+@media (max-width: 500px) {
+   .values {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid var(--primaryBeige);
+      font-size: 18px !important;
+   }
+
+   .countscroll {
+      padding: 0 5px;
+      border: 2px solid var(--primaryBeige);
+      height: 45px;
+   }
+   .desctopImage > div {
+      width: 100% !important;
+      height: 400px !important;
+   }
+   .solaqbillionImage {
+      height: 460px !important;
+   }
+}
+
+/* you can move style for seprate  end*/

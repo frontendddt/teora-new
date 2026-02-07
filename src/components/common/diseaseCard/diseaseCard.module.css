@@ -1,0 +1,66 @@
+.swipcard_w {
+    height: 100vh;
+    min-width: 85vw;
+}
+.scrollingCard {
+    padding: 3rem;
+    width: 100%;
+    height: 550px;
+    margin: 0.5rem;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.scrollingCard a {
+    font-size: 14px;
+    font-weight: 500;
+}
+.stickSwiper_img {
+    width: 90% !important;
+    height: 300px !important;
+}
+.icontext h5 {
+    font-size: 17px !important;
+    line-height: 20px !important;
+}
+.icontext span {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 16px !important;
+}
+@media (max-width: 991px) {
+    .stickSwiper_img {
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    .scrollingCard {
+        padding: 2rem;
+        height: 570px;
+    }
+    .stickSwiper_img {
+        width: 70% !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .swipcard_w {
+        min-width: 92vw;
+    }
+    .scrollingCard {
+        padding: 1.5rem;
+        height: 600px;
+    }
+    .stickSwiper_img {
+        width: 100% !important;
+        height: 145px !important;
+        margin: 0.5rem 0px;
+    }
+    .icontext h5 {
+        font-size: 15px !important;
+    }
+    .icontext span {
+        font-size: 12px;
+        font-weight: 600 !important;
+    }
+}

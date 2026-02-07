@@ -1,0 +1,33 @@
+
+.readmore{
+    font-size: 18px;
+    font-weight: 600;
+}
+.blogDescriptions{
+    padding: 10px 0;
+}
+.blogDescriptions h4{
+    font-size: 22px !important;
+    line-height: 29px !important;
+}
+.blogDescriptions p{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+.bolgsStyles p{
+    font-size: 16.5px;
+}
+.paginations li a{
+    font-weight: 500;
+    color: var(--primaryPurple);
+}
+ 
+.paginations li:first-child a, .paginations li:last-child a{
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+}
+ 
+.paginations .active{
+    background-color: var(--primaryPurple);
+}

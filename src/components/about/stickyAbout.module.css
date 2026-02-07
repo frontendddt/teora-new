@@ -1,0 +1,230 @@
+/* .bg1 {
+    background-image: url("../../assets/homeAssets/slider-teora-bg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+} */
+
+.aboutCardBox {
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+.aboutCardtext {
+    font-size: 18.5px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+}
+.arrows {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.asiaOne {
+    font-weight: 500 !important;
+}
+
+.proprietarySection {
+    padding: 0 5%;
+}
+.card_content {
+    padding: 1.2rem 1.8rem 0rem 1.8rem;
+}
+
+.card_content p {
+    margin: 1rem 0;
+}
+
+.border_radiusEl {
+    border-radius: 33px;
+    overflow: hidden;
+}
+
+/* ***** progressbar ******/
+.progress {
+    height: 1px;
+    background-color: #d3d3d3;
+    position: relative;
+}
+.progress-bar {
+    height: 2px;
+    background-color: var(--accentLime);
+}
+
+.progress-label {
+    font-size: 0.875rem;
+    color: #999;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.activeIconst {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primaryBeige);
+}
+
+.activeArraw {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.activeText h4 {
+    font-weight: 400 !important;
+    transition: ease-in-out all 0.4s;
+}
+
+.slideOne {
+    padding-right: 1.5rem;
+}
+
+.innovationBtn {
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+}
+
+.table_borders thead th {
+    border: 4px solid var(--primaryPurple);
+    padding: 7px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.table_borders thead th:first-child {
+    border-left: none;
+}
+.table_borders thead th:last-child {
+    border-right: none;
+}
+
+.table_borders tbody tr td {
+    font-size: 19px;
+    padding: 7px 2rem;
+    text-align: center;
+    line-height: 22px;
+}
+.table_borders tbody tr td:first-child {
+    border-right: 4px solid var(--primaryPurple);
+}
+
+.contents {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.slickyimage {
+    width: 100%;
+    height: 100%;
+}
+.padd_2rem {
+    padding: 2rem 2rem 0.5rem 2rem;
+}
+.padd_2_5rem {
+    padding: 2.5rem;
+}
+.aquaculture_height {
+    height: 570px;
+}
+
+.tablesBr th,
+.tablesBr td {
+    border: 3px solid var(--primaryPurple);
+    background-color: var(--primaryBeige);
+    color: var(--primaryPurple);
+    padding: 10px;
+}
+.tablesBr td:last-child {
+    border-right: none;
+}
+.tablesBr td:first-child {
+    border-left: none;
+}
+.tablesBr th:first-child {
+    border-left: none;
+}
+.tablesBr th:last-child {
+    border-right: none;
+}
+@media (max-width: 768px) {
+    .sticky_section {
+        border-radius: 0;
+        height: auto;
+        min-height: auto !important;
+        position: static !important;
+    }
+    .activeIconst {
+        width: 30px;
+        height: 30px;
+    }
+    .slideOne {
+        padding-right: 0px;
+    }
+    .slickyimage {
+        width: 100%;
+        height: 220px;
+    }
+    .whyustimerSliper h3 {
+        line-height: 25px !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+    .table_borders thead th {
+        padding: 4px 0;
+        font-size: 16px;
+    }
+    .table_borders tbody tr td {
+        font-size: 15px;
+        padding: 5px 2px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    .border_radiusEl {
+        border-radius: 25px;
+    }
+    .tablesBr th,
+    .tablesBr td {
+        padding: 3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .aquaculture_height {
+        height: 450px;
+    }
+}
+@media (max-width: 576px) {
+    .shrimpGuard1 {
+        height: auto !important;
+    }
+    .card_content {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    .proprietarySection {
+        padding: 0 3%;
+    }
+    .aboutCardBox {
+        padding: 1rem;
+    }
+    .aboutCardtext {
+        font-size: 17px !important;
+        line-height: 22px !important;
+    }
+    .paddingManage {
+        padding: 0px !important;
+    }
+    .padd_2rem {
+        padding: 1rem 1rem 0.4rem 1rem;
+    }
+    .padd_2_5rem {
+        padding: 1rem;
+    }
+}

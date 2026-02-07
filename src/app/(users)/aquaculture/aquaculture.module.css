@@ -1,0 +1,75 @@
+.aquacultureBanner {
+    max-width: 450;
+    height: 680px !important;
+}
+
+.angled_section {
+    height: 300px;
+    position: relative;
+    top: -1px;
+    /* This creates the diagonal border */
+    clip-path: polygon(0 0, 100% 0%, 71% 100%, 50% 70%);
+}
+
+.swipcard_w {
+    height: 100vh;
+    min-width: 69vw;
+}
+.scrollingCard {
+    padding: 3rem 4rem 4.5rem 4.5rem;
+    width: 100%;
+    height: 550px;
+    margin: 0.5rem;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.slackimage {
+    width: 85%;
+    height: 100%;
+}
+.protecting_shrimp {
+    max-width: 1000px !important;
+    height: 500px !important;
+    margin: 0 auto;
+}
+.infoimg {
+    max-width: 450px !important;
+    height: 600px !important;
+}
+
+@media (max-width: 767px) {
+    .growing {
+        width: 200px !important;
+    }
+    .scrollingCard {
+        padding: 2rem;
+        height: 570px;
+    }
+    .aquacultureBanner {
+        max-width: 450px;
+        height: 480px !important;
+        margin: 1.5rem auto 0 auto;
+    }
+    .slackimage {
+        height: 200px !important;
+    }
+    .protecting_shrimp {
+        max-width: 1000px !important;
+        height: 300px !important;
+        margin: 0 auto;
+    }
+    .infoimg {
+        height: 500px !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .swipcard_w {
+        min-width: 92vw;
+    }
+    .scrollingCard {
+        padding: 1.5rem;
+        height: 600px;
+    }
+}

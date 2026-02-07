@@ -1,0 +1,201 @@
+
+
+.bugde{
+    background-color: var(--accentBlue);
+    font-size: var(--buge-fs);
+    font-weight:  var(--buge-fw);
+    text-align: center;
+    padding: 5px 0;
+}
+.aboutrowcontainer{
+    padding: var(--padding-blog);
+}
+
+.folder{
+  width: 90%;
+  height: 90%;
+  background: #dcdcdc;
+  border: 1px solid var(--primaryPurple); 
+  border-radius: 20px;
+  clip-path: polygon(
+    0% 0%, 
+    60px 0%, 
+    80px 20px, 
+    100% 20px, 
+    100% 100%, 
+    0% 100%
+  );
+}
+
+.circal_ox{
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+}
+
+.aboutBorderS{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.critical {
+  position: absolute;
+  top: 115px;             
+  left: 50%;            
+  transform: translateX(-50%);
+  width: 100%;         
+}
+.stat_card {
+  background-color: #7b6d91; /* purple background */
+  padding: 25px;
+  width: 100%;
+  max-width: 225px;
+  height: 480px;
+  color: var(--primaryBeige) !important;
+  clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+  position: relative;
+  /* padding-top: 60%; */
+}
+
+.stat_card h2{
+  font-size: 49px !important;
+  line-height: 49px !important;
+}
+.stat_card p{
+  font-size: 18px !important;
+}
+
+.shareImage{
+  position: absolute;
+  top: -15px;
+  right: 30px;
+}
+.shareImage2{
+  border-radius: 50%;
+}
+
+.trilionCard{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+/* @media (max-width:1536px){
+  .trilionCard{
+   top: 250px;
+}
+} */
+
+.aqua{
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  display: inline-block;
+  width: 240px;
+}
+
+.clearance_elements{
+  width: 60%;
+}
+
+
+
+ @media (min-width: 1400px) and (max-width: 1600px) {
+  .trilionCard {
+    top: 190px;
+  }
+}  
+
+
+@media (max-width: 767px){
+    .aboutrowcontainer{
+        padding: 0px !important;
+    }
+    .critical { 
+      top: 65px;      
+    }
+    .millionCard h1{
+      font-size: 30px !important;
+    }
+    .aboutBorderS{
+      width: 60px !important;
+    }
+    .borderCard{
+      margin-top: 3rem !important;
+    }
+  }
+
+ 
+@media (max-width: 576px){
+    .aboutrowcontainer{
+        padding: 0px !important;
+    }
+    .critical { 
+      top: 35px;        
+    }
+    .stat_card{
+      max-width: 160px;
+      padding: 15px;
+      height: 380px;
+      clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .stat_card h2{
+      font-size: 25px !important;
+      line-height: 32px !important;
+    }
+    .stat_card p{
+      font-size: 14px !important;
+      line-height: 23px !important;
+    }
+    .trilionCard{
+      justify-content: center !important;
+      gap: 15px !important;
+      top:330px !important;
+      left: 5px;
+      max-width: 98%;
+    }
+    .shareImage{
+      width: 80px !important;
+      height: 80px !important;
+      top: 10px !important;
+      left: 40px !important;
+    }
+    
+ 
+     .millionCard h1{
+      font-size: 25px !important;
+    }
+    .millionCard>div{
+      align-items: center !important;
+      height: 35px;
+    }
+    .millionCard p{
+      font-size: 14px !important;
+      line-height: 20px !important;
+    }
+    .circal_ox{
+      width: 90px;
+      height: 90px;
+      right: 45px;
+    }
+    .positionCol6{
+      display: flex;
+      justify-content: center;
+    }
+     .aboutBorderS{
+      width: auto !important;
+      height: 100% !important;
+    }
+    .removeLeft{
+      padding-left: 3rem !important;
+    } 
+}
+ 
+
+ 

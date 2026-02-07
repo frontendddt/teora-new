@@ -1,0 +1,344 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.left_sidebar {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0;
+    transition: 0.1s ease-in;
+}
+.page-wrapper {
+    height: 100%;
+    background-color: #f5f6fe;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.logout_header {
+    position: sticky;
+    top: 0;
+}
+
+.sidemenu_btn {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--primaryPurple);
+    cursor: pointer;
+}
+.logout_admin {
+    border: none;
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+    width: 110px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: ease-in-out all 0.3s;
+    border: 1px solid var(--primaryPurple);
+}
+.logout_admin svg {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.logout_admin:hover {
+    background-color: var(--primaryBeige);
+    color: var(--primaryPurple);
+}
+
+.header_logos {
+    height: 60px;
+    padding: 10px 2.5rem;
+}
+
+.adminheadrlogo {
+    height: 60px;
+}
+
+.sidebar_menu {
+    padding: 10px 10px;
+}
+
+.dashboard_menu_list {
+    padding: 0px;
+    list-style: none;
+}
+.dashboard_menu_list li {
+    margin: 0.5rem 0;
+    transition: ease-in-out 0.2s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.dashboard_menu_list li a {
+    padding: 0.5rem 15px;
+    text-decoration: none;
+    color: var(--primaryBeige);
+    font-size: 16.5px;
+    display: inline-block;
+    width: 100%;
+}
+.dashboard_menu_list li a:hover {
+    background-color: var(--primaryBeige);
+    color: var(--primaryPurple);
+}
+
+.content-wrapper {
+    padding: 1rem 2.5rem;
+}
+
+.heading_titles {
+    font-size: 20px !important;
+}
+.card_container {
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+}
+
+.formcontrol {
+    gap: 5px;
+    margin-bottom: 1.5rem;
+}
+.formcontrol label {
+    font-size: 15px;
+    font-weight: 500;
+    /* width: 20%;  */
+}
+.formcontrol input,
+.formcontrol select,
+.formcontrol textarea {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    outline: none;
+    color: var(--primaryPurple);
+}
+.formcontrol input:focus,
+.formcontrol select:focus {
+    border-color: var(--primaryPurple);
+}
+
+/* .formcontrol textarea{
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    height: 100px;
+     outline: none; 
+} */
+.formcontrol textarea:focus {
+    border-color: var(--primaryPurple);
+}
+
+/*   for */
+
+.formcontrol2 label {
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+.formcontrol2 input {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.formcontrol2 input:focus {
+    outline: none;
+}
+.formcontrol2 textarea {
+    padding: 7px 10px;
+    font-size: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.formcontrol2 textarea:focus {
+    outline: none;
+}
+
+/*   form */
+
+.tables_style {
+    border-radius: 10px;
+}
+.tables_style thead tr th {
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+}
+.tables_style thead tr th,
+.tables_style tbody tr td {
+    text-align: center;
+    padding: 9px 7px;
+}
+.tables_style tbody tr:hover {
+    background-color: red !important;
+}
+.edit_menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--primaryPurple);
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+}
+.edit_menu:hover {
+    background-color: transparent;
+    color: var(--primaryPurple);
+}
+
+.delete_menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--accentRed);
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+    background-color: var(--accentRed);
+    color: var(--primaryBeige);
+}
+.delete_menu:hover {
+    background-color: transparent;
+    color: var(--accentRed);
+}
+
+.submit_button_admin {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+}
+.teora-hub-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+
+    border: 1px solid var(--primaryPurple);
+    color: var(--primaryPurple);
+    background-color: transparent;
+    transition: all ease-in-out 0.2s;
+}
+.teora-hub-btn:hover {
+    background-color: var(--primaryPurple);
+    color: var(--primaryBeige);
+}
+
+.clear_button_admin {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--accentRed);
+    color: var(--primaryBeige);
+}
+.closeAdminmenu {
+    display: none;
+}
+.swal-body-md {
+    font-size: 15.5px;
+}
+.suggest_admin {
+    font-size: 13px;
+}
+@media (max-width: 768px) {
+    .closeAdminmenu {
+        display: block;
+    }
+    .content-wrapper {
+        padding: 1rem 0.5rem;
+    }
+    .dashboard_menu_list li a {
+        padding: 0.8rem 0px;
+    }
+    .closeAdminmenu {
+        position: absolute;
+        right: 5px;
+        top: 15px;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .card_container {
+        margin-top: 0.5rem !important;
+        padding: 10px !important;
+    }
+    .card_container .card-body {
+        padding: 0px !important;
+    }
+    .formcontrol {
+        flex-wrap: wrap;
+        gap: 0px !important;
+        margin-top: 1rem !important;
+    }
+    .formcontrol input,
+    .formcontrol label,
+    .formcontrol textarea {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .adminh6 {
+        font-size: 15px !important;
+        font-weight: 500 !important;
+    }
+
+    .adminLabel label {
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+    .submit_button_admin,
+    .clear_button_admin,
+    .teora-hub-btn {
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+    .tables_style thead tr th,
+    .tables_style tbody tr td {
+        text-align: center;
+        padding: 10px 4px;
+        font-size: 14px;
+    }
+    .edit_menu,
+    .delete_menu {
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+    }
+
+    .logout_admin {
+        width: 100px;
+        font-size: 16px;
+    }
+    .logout_admin svg {
+        font-size: 20px;
+    }
+    .dashboardCard {
+        margin-bottom: 0.5rem;
+    }
+    .dashboardCard .card-body {
+        padding: 0px !important;
+    }
+    .adminh4 {
+        font-size: 16px !important;
+        margin-bottom: 0.5rem !important;
+    }
+}

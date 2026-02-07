@@ -1,0 +1,48 @@
+{
+  "name": "teora",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@ckeditor/ckeditor5-build-classic": "^36.0.1",
+    "@ckeditor/ckeditor5-react": "^5.1.0",
+    "animate.css": "^4.1.1",
+    "antd": "^5.27.1",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "5.3",
+    "cookie": "^1.0.2",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.14.2",
+    "iron-session": "^8.0.4",
+    "jose": "^6.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.525.0",
+    "motion": "^12.23.12",
+    "mysql2": "^3.14.3",
+    "next": "^15.5.2",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^7.0.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-scroll": "^1.9.3",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.23.0",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5"
+  }
+}

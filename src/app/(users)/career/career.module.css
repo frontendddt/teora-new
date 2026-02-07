@@ -1,0 +1,101 @@
+
+.career_header_title{
+    font-size: 25px;
+    line-height: 40px !important;
+}
+.swiperClass{
+    height: 380px;
+}
+
+.sticky_section{
+    height: auto;
+    width: 100%; 
+    border-radius: 70px 70px 0 0;  
+    top:10px; 
+    min-height: 100vh;
+}
+.swiperClass{
+    height: 400px;
+}
+.controllers span{
+    color: var(--primaryBeige); 
+}
+.controllers{
+   border-color: var(--primaryBeige) !important;
+}
+.controllers svg{
+    color: var(--primaryBeige);
+}
+.controllers>div{
+     border-color: var(--primaryBeige) !important;
+}
+
+/* career section */
+.opening_job{
+    padding: 25px;
+    border: 1px solid var(--primaryPurple);
+    border-radius: 15px;
+    background-color: #fff;
+    transition: var(--trasition);
+}
+.opening_job p{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.opening_job:hover{
+    /* background-color: var(--beigeCream); */
+    border-color: var(--accentLime);
+}
+.careerlogo{
+    padding: 15px;
+    border: 1px solid var(--primaryPurple);
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+}
+.jobshift{
+    padding: 4px 15px;
+    border: 1px solid var(--primaryPurple);
+    border-radius: 20px; 
+}
+.jobinfo span{
+     font-size: 15px;
+     font-weight: 500;
+}
+.jobinfo svg{
+    font-size: 25px;
+}
+
+.job_details p, .job_details ul li{ 
+    font-size: 14.5px;
+    color: #888888;
+    line-height: 24px;
+    margin: 0; 
+}
+.job_details p{
+    margin-bottom: 5px;
+}
+.careerCard{
+    padding: 30px;
+}
+.videoElements{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+.imgfooter{
+    height: 400px;
+}
+@media (max-width: 992px){
+ .videoElements{ 
+    height: 400px; 
+ } 
+ .career_header_title{ 
+    line-height: 33px !important;
+ }
+}
+@media (max-width: 768px){
+ .imgfooter{
+    height: 300px;
+}
+}

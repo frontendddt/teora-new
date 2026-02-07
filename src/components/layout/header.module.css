@@ -1,0 +1,86 @@
+
+.header_container{ 
+    color: var(--primaryPurple);
+}
+.nav_container{
+    height: 60px;
+    opacity: 0.87;
+    background: #FFFFFF;
+    margin: 5px auto;
+    border-radius: 10px;
+} 
+.teora_hub{
+    /* width: 120px; */
+    padding: 0 10px;
+    height: 38px;
+    background-color: var(--primaryPurple);
+    border-radius: 9px;
+    color: var(--primaryBeige);
+}
+.header_search{
+     color: var(--primaryBeige);
+     width: 50px;
+     height: 50px;
+     background: var(--primaryPurple);
+     border-radius: var(--borderRadius);
+     border: none; 
+     transition: var(--trasition)
+}
+.header_search:hover{
+    background-color: var(--accentRed);
+}
+.header_search svg{
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    font-weight: bolder 
+}
+.teora_documents{
+    gap: 30px;
+    font-size: var(--fontSize14);
+    font-weight: var(--fw-600);
+}
+
+.navbar_list li a{
+    font-weight: var(--fw-600);
+    font-size: var(--fs-14);
+    color: var(--primaryPurple);
+    padding: 5px 13px !important;
+}
+.tora_hub_doc{
+    color: var(--accentLime);
+}
+
+@media (max-width:991px){
+    .navbar_list li a{ 
+        font-size: 16.5px; 
+        padding: 5px 1px 5px 13px !important;
+    }
+    .navbar_list li{    margin-bottom: .5em;} 
+ 
+}
+
+@media (max-width:500px){
+    .navvbarWidth{
+        max-width: 85%;
+    }
+    .header_search{
+        display: none !important;
+    }
+    .header_container{
+        padding: 0 1.5rem;
+    }
+    .nav_container{
+        height: 70px;
+        padding: 0px;
+    }
+    .navMenu{
+        position: absolute;
+        right: -60px;
+        gap: 10px;
+    }
+    .teora_hub{
+        height: 43px;
+    }
+    
+}

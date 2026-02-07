@@ -1,0 +1,79 @@
+
+.customlink>div{padding: 5px 0 !important;}
+.customlink{margin-top: 2rem;}
+.companys{width:100%; height:185px !important}
+.bottompmargin{margin-bottom: 2.5rem; }
+.spaceto_phone:nth-of-type(odd){padding-left: 1.5rem;}
+.spaceto_phone:nth-of-type(even){padding-right: 1.5rem;}
+.conver_row{max-width: 992px; position: relative;}
+.conver_row1{
+    border-radius: 40px 0 0 40px;
+    padding: 0px 2rem;
+    height: 150px;
+}
+.youtube_desctop{height: 600px !important;}
+.descreption{padding-top: 1rem;}
+.p_left_right{padding: 0 8rem;}
+.conver_row1_right{ border-radius: 0 40px 4px 0;}
+.phone{
+    position: absolute !important;
+    top: -10px !important;
+    right: 0;
+    max-width: 550px !important;
+    height: 250px !important; 
+}
+.mediaMobile{position: relative;top: -150px;}
+ .award_iconimage{width: 110px !important; height: 110px !important;}
+
+.aboutCardtext{
+    font-size: 18.5px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+}
+.aboutCardBox{
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    background: var(--mutedBeige);
+    color: var(--primaryPurple);
+    transition: all ease-in-out .3s;
+}
+.aboutCardBox:hover{
+    background: var(--mutedPurple);
+    color: var(--primaryBeige);
+}
+.arrows{font-weight: bolder;font-size: 16px;}
+.youtubes{width: 90%; height: 400px;}
+
+.wid_s{  width: 90%;}
+.wid_s2{width: 85%;}
+.wid_s h5{padding: 1.2rem 0 1rem 0;}
+.videoBtn{
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    margin: .2rem 0;
+}
+.award_iconimage2{width: 220px !important; height: 65px !important;}
+ .wid_s_img1{height:200px !important} .wid_s_img2{height: 450px !important;}
+@media (max-width: 768px){
+    .youtubes{width: 100%; height: 250px;}
+    .phone{ max-width: 400px !important; height: 220px !important; }
+    .mediaMobile{top: -50px;}
+    .companys{height:135px !important}
+     .award_iconimage{width: 80px !important; height: 80px !important;}
+      
+}
+@media (max-width: 576px){
+    .companys{height:80px !important}
+     .award_iconimage{width: 70px !important; height: 70px !important;}
+     .awrdh4 h4{font-size: 17px !important; line-height: 21px !important; font-weight: 600 !important;}
+     .p_left_right{padding: 0rem;} .phone{ max-width: 230px !important; height: 150px !important; }
+     .conver_row1{padding: 0px 1.5rem;}
+     .award_iconimage2{max-width: 110px !important; height: 40px !important;}
+     .p_left{padding-left: 1.5rem;} .p_right{padding-right: 1.5rem;} .mediaMobile{top: 0px; height: 540px !important;}
+     .bottompmargin{margin-bottom: 2rem; }.mediaMobile>div{height: 480px !important;}
+     .descktop{height: 350px !important; margin-top: 1rem;}
+     .wid_s, .wid_s2{  width: 100%;}  .wid_s_img1{height:150px !important} .wid_s_img2{height: 350px !important;}
+     .w_100, .w_100>div{width: 100% !important; max-width: 100% !important;}
+     .youtube_desctop{height: 350px !important;}
+}

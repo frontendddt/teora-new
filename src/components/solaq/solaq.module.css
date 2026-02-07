@@ -1,0 +1,37 @@
+
+ 
+.swiperCard{ 
+    padding: 3rem 1.5rem 1rem 4rem; 
+    height: 500px !important;
+    overflow: hidden;
+}
+.indexwrapper{
+    width: 40px;
+    height: 150px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+   transform: translateY(-50%);
+    left: -6px;
+    z-index: 1;
+}
+.swiper_wrraper{
+    height: 470px;
+    overflow: hidden;
+}
+.cardDiscreptions{
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+ @media (max-width: 767px){
+    .swiperCard{ 
+        padding: 2rem 1.5rem 1rem 3rem; 
+        height: 400px !important; 
+    }
+ }
+  @media (max-width: 576px){
+    .swiperCard{ 
+        padding: 1.5rem 1.5rem 1.5rem 2rem; 
+        height: 440px !important; 
+    }
+ }

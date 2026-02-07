@@ -1,0 +1,250 @@
+.container {
+  background: linear-gradient(90deg, #2a1f3d, #3b2b55);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 16px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+}
+
+.contactBtn {
+  background: white;
+  color: #3b2b55;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.contact_location {
+  display: flex;
+  gap: 50px;
+  padding: 0 2rem;
+  margin-top: 3rem;
+}
+
+.marginclass {
+  margin-top: 6rem;
+}
+.marginclass2 {
+  margin-top: 5rem;
+}
+.buglink {
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 15px;
+  line-height: auto;
+}
+
+.teoratext {
+  font-size: 30px;
+  color: #fcc150 !important;
+}
+
+.tables1 tr td {
+  background-color: transparent !important;
+  color: var(--primaryBeige);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 15px;
+  height: 55px;
+  text-align: center; /* horizontal center */
+  vertical-align: middle;
+}
+
+.tables1 tr td:first-child {
+  border-left: none !important;
+}
+.tables1 tr td:last-child {
+  border-right: none !important;
+}
+
+/* contact form */
+.contact_container {
+  padding: 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid var(--primaryBeige);
+  border-radius: 15px;
+}
+.input_container {
+  margin-bottom: 1.5rem;
+}
+.input_container label {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+}
+.input_container input,
+.input_container textarea {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: transparent;
+  font-size: 15px;
+  color: var(--primaryBeige);
+  font-weight: 500;
+  border: 1px solid var(--primaryBeige);
+  outline: none;
+  border-radius: 5px;
+}
+.input_container input:focus,
+.input_container textarea:focus,
+.input_container select:focus {
+  border-color: var(--accentLime);
+}
+
+.input_container select {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: transparent;
+  color: var(--primaryBeige);
+  border-radius: 5px;
+  border: 1px solid var(--primaryBeige);
+}
+.requireds {
+  color: var(--darkRed);
+  font-size: 20px;
+  display: inline;
+  line-height: 15px;
+}
+
+.input_container textarea {
+  min-height: 200px;
+}
+.checkbox li {
+  padding: 0.3rem 0.5rem !important;
+  background-color: var(--deepPurple) !important;
+  margin: 0.1rem !important;
+}
+
+.checkbox li label {
+  font-size: 14px;
+}
+.input_container span {
+  width: 100%;
+}
+
+.input_container input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.submitbtn {
+  width: 150px;
+  padding: 2px 5px;
+  height: 45px;
+  text-align: center;
+  font-size: 16px;
+  background-color: var(--darkRed);
+  color: var(--primaryBeige);
+  border-radius: 5px;
+  font-weight: 500;
+}
+.contact_container select option {
+  background-color: var(--deepPurple) !important;
+}
+.disabledclass {
+  background-color: #734143;
+}
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 992px) {
+  .contact_location {
+    padding: 0rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .tables1 tr td {
+    font-size: 12px;
+    padding: 0 5px;
+    height: 55px;
+  }
+  .tablebtn {
+    min-width: 105px;
+    font-size: 13.5px;
+    padding: 6px 6px;
+    border-radius: 10px;
+  }
+  .contectText_container h3 {
+    font-size: 22px !important;
+    line-height: 35px !important;
+  }
+  .contact_location {
+    gap: 30px;
+    padding: 0rem !important;
+    margin-top: 3rem;
+  }
+  .marginclass {
+    margin-top: 2rem;
+  }
+  .marginclass2 {
+    margin-top: 2rem;
+  }
+  .locationImaage {
+    width: 100px !important;
+    height: 130px !important;
+  }
+
+  .buglink {
+    font-size: 17px;
+  }
+  .iconsWidth {
+    width: 50px !important;
+    height: 40px !important;
+  }
+  .contact_container {
+    padding: 25px;
+  }
+  .input_container {
+    margin-bottom: 0.5rem;
+  }
+  .input_container textarea {
+    min-height: 110px;
+  }
+}

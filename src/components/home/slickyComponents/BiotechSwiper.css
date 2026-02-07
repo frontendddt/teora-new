@@ -1,0 +1,35 @@
+
+.swiper-wrapper-container {
+  padding-left: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background-color: #f9f9f9;
+}
+.mySwiper .swiper-slide {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.slide-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.slide-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.swiper-pagination-bullet {
+  background-color: #aaa;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #007bff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #007bff;
+}

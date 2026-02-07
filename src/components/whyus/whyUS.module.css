@@ -1,0 +1,76 @@
+
+
+.infoCard{
+    width: 100%;
+}
+.infoCard h5{
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+}
+
+.vaccine{
+    margin-top: 5rem;
+    width: 100%;
+    height: 450px;
+}
+
+/* CoreBenefitsSection styles start */
+.circalAria{
+    width:150px;
+    height: 150px;  
+    border-radius: 50%; 
+    position: relative;
+    z-index: 1;  
+}
+/* CoreBenefitsSection styles end */
+
+
+.sector_table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.sector_table th,
+.sector_table td {
+  padding: 12px;
+  border: 1px solid #333; 
+    font-style: italic;
+}
+
+
+.sector_table thead th {
+  background-color: #c12b30;  
+  color: var(--primaryBeige); 
+}
+
+.sector_table tbody td {
+  background-color: var(--accentLime); 
+  color: #1a1a1a; 
+  white-space: pre-line; 
+color: var(--primaryPurple);
+ font-weight: bold; 
+   font-size: 21.5px !important; 
+}
+.checksele p svg{
+    font-weight: bold;
+    font-size: 24px;
+}
+.solutionsElements{
+    font-size: 30px !important;
+    line-height: 40px !important;
+    font-weight: 300 !important;
+}
+.autoheight{min-height:fit-content !important}
+
+@media (max-width: 768px){
+    .vaccine{ 
+        width: 100%;
+        height: 200px;
+    }
+    .sector_table th, .sector_table td {padding: 5px;}
+    .sector_table tbody td { font-size: 15.5px !important;}
+  .solutionsElements{font-size: 20px !important; line-height: 25px !important; font-weight: 500 !important;}
+}

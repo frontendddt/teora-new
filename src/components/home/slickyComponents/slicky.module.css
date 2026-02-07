@@ -1,0 +1,142 @@
+ 
+
+ .arrowPrev{
+    position: absolute !important;
+    top: -150px;
+    right: 20%;
+    padding: 20px;
+ 
+ }
+ .arrowNext{
+     position: absolute !important;
+     top: -150px;
+     right: 0%;
+     padding: 20px;
+ }
+ .slicky_p{ padding: 1.6rem 0 0 1.6rem;}
+ .countscroll{
+    display: flex;
+    gap:10px;
+    width: fit-content;
+    align-items: center;
+    padding: 0 5px;
+    border: 2.5px solid var(--primaryBeige);
+    border-radius: 10px;
+    height: 50px;
+ }
+ .countscroll2{
+   border-color: var(--purpleColor) !important; 
+ }
+  .values2{border-color: var(--purpleColor) !important}
+ .values{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    border: 2.5px solid var(--primaryBeige); 
+    font-size: 22px !important;
+    font-weight: 700;
+ }
+
+
+ .border_rignt{ border-right: 2px solid var(--accentLime); }
+.border_rignt1{
+    padding: 1rem .6rem;
+}
+ 
+
+.border_rignt p{
+  font-size: 15px !important;
+  line-height: 22px !important;
+} 
+  .widths_5{
+    height: 500px; 
+    border-radius: 40px;
+    top:180px;
+ }
+ 
+ .sliderBanner{
+   padding: .4rem 2rem;
+   background: #ffff;
+   border-radius: 60px;
+ }
+
+ .fontCard{
+   font-size: 17.5px;
+   font-weight: 400;
+   padding: 5px 5px;
+ }
+ .zerpfonts{  font-weight: 600 !important;} 
+@media (max-width: 768px){
+  .slicky_p{
+    padding: .2rem 0 0 0rem;
+    font-size: 15.5px !important;
+    line-height: 25px !important;
+ }
+ .slicky_p p{
+    font-size: 15.5px !important;
+    line-height: 25px !important;
+ }
+  .widths_5{
+    height: fit-content; 
+    border-radius: 20px;
+    top:100px;
+    min-height: 320px;
+ }
+ .sliderBanner{
+    padding: .4rem .5rem; 
+    border-radius: 50px;
+ }
+ .sliderBanner img{
+   height: 50px !important;
+ } 
+}
+
+@media (max-width: 576px){
+  .border_rignt{
+          border-right: none; 
+          border-bottom: 2px solid var(--accentLime);;
+      }
+    .border_rignt1{
+           padding: .8rem 0rem;
+    }
+    .flexcolumn{
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    .flexcolumn>div:last-child{
+      padding: 0px !important;
+      margin-top: .8rem;
+    }
+    .infocard{  font-size: 17px !important;}
+  
+}
+ 
+@media (max-width: 500px){
+      .slicky_p h5{
+        padding-bottom: .5rem !important;
+      }
+      .slicky_p{  
+        font-size: 14px !important; 
+      }
+
+      .values{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%; 
+          border: 2px solid var(--primaryBeige); 
+          font-size: 18px !important; 
+      }
+
+       .countscroll{ 
+        padding: 0 5px;
+        border: 2px solid var(--primaryBeige); 
+        height: 45px;
+    }
+
+     .fontCard{
+        font-size: 13.5px;
+        font-weight: 400;
+        padding: 5px 5px;
+      }   
+      
+}

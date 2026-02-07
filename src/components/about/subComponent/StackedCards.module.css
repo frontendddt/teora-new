@@ -1,0 +1,54 @@
+.card {
+  position: absolute;
+  top: 30px;
+  right: 0 !important;
+  transition: left 0.8s ease;
+}
+.btnContainer {
+  margin-top: 30px;
+}
+
+.btnContainer button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/********************************/
+
+.cardSlide {
+  max-width: 550px;
+  height: 475px;
+  padding: 2.5rem;
+  border-radius: 35px;
+}
+
+.cardSlide h5 {
+  font-size: 20px !important;
+}
+
+.cardSlide strong {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.2px;
+}
+
+.cardSlide p {
+  font-size: 19px !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 992px) {
+  .flexwrap {
+    flex-wrap: wrap;
+  }
+  .flexwrap > div:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .cardSlide {
+    max-width: 500px;
+    height: 470px;
+    padding: 1.5rem;
+  }
+}
