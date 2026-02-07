@@ -5,7 +5,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { LinkCustom } from "@/components/common/Custom";
 import { ImageCustom } from "@/components/common/Custom";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 gsap.registerPlugin(ScrollTrigger);
 
 

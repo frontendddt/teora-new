@@ -8,7 +8,7 @@ export const commonSolaqData = [
         bugeColor: "text-primaryBeige",
         textColor: "purpleColor",
         title: "Helps Animals Stay Prepared Before Challenges Emerge.",
-        description: <React.Fragment>SOLAQ<sup>TM</sup>feed-delivered biologics support and strengthen the animal's natural immune pathways,
+        description: <React.Fragment>SOLAQ<sup>TM</sup>feed-delivered biologics support and strengthen the animals natural immune pathways,
             helping animals maintain stronger baseline health, heightened vigilance and respond faster to disease-related
             pressure in high-density farm environments - without injections, stress, or disruption.</React.Fragment>,
         footerTitle: "The result: steadier health, fewer disruptions, and more predictable performance.",
@@ -109,61 +109,61 @@ export const sliderWorkSolaqData = [
 
 export const timerSolaqcardData = [
     {
-        heading: <>Computational Biology <br /> With Molecular Accuracy</>,
-        title: <>
+        heading: <React.Fragment>Computational Biology <br /> With Molecular Accuracy</React.Fragment>,
+        title: <React.Fragment>
             Our proprietary bioinformatics engine analyses millions
             of genetic sequences—host and pathogen—to pinpoint
             disease-driving or growth-shaping molecular targets.
             This enables rapid, computational design of precise
-            peptide, protein, or RNA-based biologics.</>,
+            peptide, protein, or RNA-based biologics.</React.Fragment>,
         alt: "Our proprietary bioinformatics engine analyses millions of genetic sequences—host",
         img: '/image/accuracy.webp',
         listActive: "Ai-Driven Precision",
     },
 
     {
-        heading: <>Breakthrough Protein & MicroRNA Technologies</>,
-        title: <>The Platform incorporates 2024 Nobel Prize - Winning advances in Protein modelling and MicroRNA biology,
+        heading: "Breakthrough Protein & MicroRNA Technologies",
+        title: <React.Fragment>The Platform incorporates 2024 Nobel Prize - Winning advances in Protein modelling and MicroRNA biology,
             allowing us to engineer cleaner, safer biologics that activate specific pathways without whole-pathogen exposure or
-            chemical inputs.</>,
+            chemical inputs.</React.Fragment>,
         alt: "The Platform incorporates 2024 Nobel Prize - Winning advances",
         img: '/image/miro-rna.webp',
         listActive: "Nobel Prize-Winning Science",
     },
 
     {
-        heading: <>Advanced Synthetic Biology</>,
-        title: <>We design biologics that "speak" the animal's biology - targeting only intended pathways while protecting while
+        heading: "Advanced Synthetic Biology",
+        title: <React.Fragment>We design biologics that speak the animals biology - targeting only intended pathways while protecting while
             protecting the microbiome. This allow immune activation, replication interference, or growth optimisation with high
-            specificity.</>,
+            specificity.</React.Fragment>,
         alt: "We design biologics that speak the animal's biology",
         img: '/image/biology.webp',
         listActive: "Advanced Synthetic Biology",
     },
 
     {
-        heading: <>Precision Fermentation</>,
-        title: <>Food-grade microbial expression enables clean, scalable manufacturing. Renewable feedstocks, controlled
-            bioreactors, and zero toxic by-products ensures safe, consistent production from lab to commerical volumes.</>,
+        heading: "Precision Fermentation",
+        title: <React.Fragment>Food-grade microbial expression enables clean, scalable manufacturing. Renewable feedstocks, controlled
+            bioreactors, and zero toxic by-products ensures safe, consistent production from lab to commerical volumes.</React.Fragment>,
         alt: "Food-grade microbial expression enables clean",
         img: '/image/farmatetion.webp',
         listActive: "Precision Fermentation",
     },
 
     {
-        heading: <>Advanced Micro-<br /> Encapsulation</>,
-        title: <>Each biologic is Encapsulation for room-temperature stability and targeted release inside the animal. It
-            survives transport, feed handling, and digestion- making advanced biotechnology practical anywhere.</>,
+        heading: <React.Fragment>Advanced Micro-<br /> Encapsulation</React.Fragment>,
+        title: <React.Fragment>Each biologic is Encapsulation for room-temperature stability and targeted release inside the animal. It
+            survives transport, feed handling, and digestion- making advanced biotechnology practical anywhere.</React.Fragment>,
         alt: "Each biologic is Encapsulation for room-temperature",
-        img: '/image/advance-micro.webp',
+        img: "/image/advance-micro.webp",
         listActive: "Advanced Micro- Encapsulation",
     },
 
     {
-        heading: <>Top-Coated Feed Delivery</>,
-        title: <>Our biologics are spray-coated onto feed pellets with a natural binder, ensuring each pellet carries a
+        heading: "Top-Coated Feed Delivery",
+        title: <React.Fragment>Our biologics are spray-coated onto feed pellets with a natural binder, ensuring each pellet carries a
             consistent, precise dose without changing feed texture or shelf-life. For farmers, it means immediate adoption, no
-            workflow changes, and stress-free delivery.</>,
+            workflow changes, and stress-free delivery.</React.Fragment>,
         alt: "Our biologics are spray-coated onto feed pellets with a natural binder",
         img: '/image/top-coted.webp',
         listActive: "Top-Coated Feed Delivery",
@@ -173,7 +173,7 @@ export const timerSolaqcardData = [
 
 export const benefitsSolaqData = [
     {
-        description: ' Feed-delivered biologics with zero injection, zero handling stress, and no special labour. seamless integration into daily routines-from hatchery to harvest.',
+        description: "Feed-delivered biologics with zero injection, zero handling stress, and no special labour. seamless integration into daily routines-from hatchery to harvest.",
         title: '',
         icon: 'solaq-swip-icon1.webp',
         bgColor: '',
