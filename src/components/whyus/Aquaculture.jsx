@@ -6,6 +6,7 @@ import { LinkCustom } from "../common/Custom";
 import styles from "./whyUS.module.css";
 import { FaRegCheckSquare } from "react-icons/fa";
 import { ImageCustom } from "../common/Custom";
+
 const tableData = [
     {
         sector: 'Aquaculture',

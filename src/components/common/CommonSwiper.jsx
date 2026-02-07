@@ -240,7 +240,7 @@ const CommonSwiper = ({ data = [], variant = "", heading = "" }) =>
                                                 {item.slide5 && (
                                                     <div className={`${styles.slide5img} none768`}>
                                                         <ImageCustom
-                                                            src="/image/stockthe_future.png"
+                                                            src="/image/shrimp-img.webp"
                                                             style={{
                                                                 width: '100%',
                                                                 height: '100%',

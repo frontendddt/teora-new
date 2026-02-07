@@ -115,7 +115,7 @@ const StickySection = () =>
                 </div>
             </StickySections>
             <StickySections zIndex={2} extraClass={`mobile_space-2 text-primaryBeige ${Styles.sticky_section}`}
-                bgImage={teoraBG}
+                bgImage={teoraBG.src}
                 style={{
                     backgroundPosition: 'center',
                     backgroundColor: '#3a28564f',
@@ -127,7 +127,7 @@ const StickySection = () =>
                 <SolaqSlider />
             </StickySections>
             <StickySections zIndex={3} extraClass={`bgthis indexpage ${Styles.sticky_section}`}
-                bgImage={bgimg} style={{ backgroundAttachment: 'fixed', }}>
+                bgImage={bgimg.src} style={{ backgroundAttachment: 'fixed', }}>
                 <div className="container">
                     <WhyMatterCard data={slideCardData} text="WHY IT MATTERS?" />
                 </div>

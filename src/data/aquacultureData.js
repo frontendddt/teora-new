@@ -235,7 +235,7 @@ export const InfoCardfutureAquacultureData = [
     },
 
     {
-        image: "/icons/emission.png",
+        image: "/icons/nutritious-icon.png",
         headings: "CONSUMERS",
         title: "Antibiotic-free, chemical-free protein. Residue free safe food. Nutritious, clean eating for families around the globe.",
         bgColor: 'accentRedBg',
@@ -250,7 +250,7 @@ export const InfoCardfutureAquacultureData = [
     },
 
     {
-        image: "/icons/Enhance.png",
+        image: "/icons/humanity-icon.png",
         headings: "HUMANITY",
         title: "AMR crisis averted. Many lives saved.Food security achieved. Food safety future- proofed.",
         bgColor: 'mutedLavenderBg',
@@ -262,59 +262,28 @@ export const InfoCardfutureAquacultureData = [
 export const stackCardAquacultureData = [
 
     {
+        slide1: true,
         titleName: 'DIFFERENCES',
-        image: '/icons/settings.png',
-        hedings: "DESIGNED FOR REAL FARMS.",
-        subHeading: "Any Farm Any Species. Any Season. Fast",
-        bgClass: "mutedLavenderBg",
-        listTitles: [
-            {
-                title: "Shelf-stable, easy to use",
-                icons: 'FaRegSquareCheck'
-            },
-            {
-                title: "Built in 6–8 months, not years",
-                icons: 'FaRegSquareCheck'
-            },
-            {
-                title: "Species & Disease-specific, not generic",
-                icons: 'FaRegSquareCheck'
-            },
-            {
-                title: " Works across aquaculture, livestock, crops, poultry and pet health. ",
-                icons: 'FaRegSquareCheck'
-            },
+        image: '',
+        hedings: "",
+        bgClass: "mutedBeigeBg",
 
-        ]
     },
 
     {
-        image: '/icons/whyrush.png',
-        hedings: "",
+        image: '/icons/outcomicon1.png',
+        hedings: "ShrimpTrident MYO Trial Outcomes",
         subHeading: "",
         bgClass: "corporateBg",
         titleName: "UNDER DEVELOPMENT",
-        listTitles: [
-            {
-                title: "Gut-health and immunity- enhancing solutions",
-                icons: 'FaRegSquareCheck'
-            },
-            {
-                title: "Precision-formulated, residue- free, and easy to administer",
-                icons: 'FaRegSquareCheck'
-            },
-            {
-                title: "Preventive care without long- term side effects",
-                icons: 'FaRegSquareCheck'
-            },
-        ]
     },
     {
-        image: '/icons/aqua-trident.png',
+        image: '/icons/aqua-icon02.png',
         hedings: "",
         subHeading: "ShrimpTrident MYO Trial Outcomes",
-        title: "ShrimpTrident MYO is a feed-based RNAi biologic designed to help shrimp survive and recover from early- stage IMNV (Infectious Myonecrosis Virus) infections.Built for rapid response, it helps reduce viral load, support immune defence, and protect harvest outcomes— before visible symptoms escalate.",
-        bgClass: "lightPinkBg"
+        title: "IMNV is one of the most economically damaging shrimp viruses in the Americas and Asia. It attacks the muscle tissue, causes rapid mortality, and spreads silently.",
+        bgClass: "lightredBg",
+        colors: "text-primaryBeige"
     },
 
     {

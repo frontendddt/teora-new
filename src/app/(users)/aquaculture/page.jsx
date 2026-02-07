@@ -32,6 +32,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { Buges } from "@/components/common/Custom";
 import { CiCircleCheck } from "react-icons/ci";
 
+import aquaculturte_bg1 from "../../../../public/bgImage/aquaculturte-bg1.webp";
+import aquaculturte_bg2 from "../../../../public/bgImage/aquaculturte-bg2.webp";
+import aquaculturte_bg3 from "../../../../public/bgImage/aquaculturte-bg3.webp";
+import protecting from "../../../../public/image/protecting.webp";
+
 const diseaseCardData = [
     {
         id: 1,
@@ -212,7 +217,7 @@ const Aquaculture = () =>
                             </MotionWrapper>
                             <MotionWrapper className="col-md-5" variant={fadeRight}>
                                 <ImageCustom
-                                    src="/image/sustainably.webp"
+                                    src="/image/sustainably.jpg"
                                     alt="Validated Trials image"
                                     className={styles.aquacultureBanner}
                                 />
@@ -226,7 +231,7 @@ const Aquaculture = () =>
                     <div className="row">
                         <MotionWrapper className="col-md-5" variant={fadeLeft}>
                             <ImageCustom
-                                src="/image/framing.webp"
+                                src="/image/framing.png"
                                 alt="card image"
                                 className={`m-auto ${styles.infoimg}`}
                             />
@@ -267,16 +272,18 @@ const Aquaculture = () =>
                     </div>
                 </div>
             </section>
-            <section >
-                <section className="deepPurple section-space">
+            <section>
+                <section className={`deepPurple section-space  ${styles.protecting_shrimp}`}
+                    style={{
+                        backgroundImage: `url(${protecting.src})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center'
+                    }}
+                >
                     <div className="container container2">
                         <h3 className="mutedPurpleColor text-center">Protecting shrimp requires solutions designed <br className="dnone768" />
                             from the ground up for their biology.</h3>
-                        <ImageCustom
-                            src="/image/aqualture-img2.png"
-                            alt="Protecting shrimp"
-                            className={styles.protecting_shrimp}
-                        />
+
                     </div>
                 </section>
                 <section className="corporateBg section-space-2 pt-3">
@@ -302,7 +309,7 @@ const Aquaculture = () =>
             </section>
 
             <section className="corporateBg">
-                <StickySections extraClass="" bgImage={'/bgimage/aquaculturte-bg1.webp'} zIndex={1} >
+                <StickySections extraClass="" bgImage={aquaculturte_bg1.src} zIndex={1} >
                     <CommonSwiper
                         variant="aquaculture"
                         data={CommonAquaculturedata}
@@ -310,7 +317,7 @@ const Aquaculture = () =>
                     />
                 </StickySections>
 
-                <StickySections bgImage="/bgimage/aquaculturte-bg2.webp" zIndex={2}>
+                <StickySections bgImage={aquaculturte_bg2.src} zIndex={2}>
                     <TimerCardSwiper
                         cardcontant={timerAquacultureData}
                         heading="SHRIMPTRIDENT"
@@ -325,11 +332,12 @@ const Aquaculture = () =>
                             stackCadrSlide={stackCardAquacultureData}
                             heading="SHRIMPTRIDENT VARIANTS"
                             learnmore={false}
+                            variant="aquacultureCard"
                         />
                     </div>
                 </StickySections>
 
-                <StickySections zIndex={4} bgImage="/bgImage/aquaculturte-bg3.webp">
+                <StickySections zIndex={4} bgImage={aquaculturte_bg3.src}>
                     <div className="container">
                         <h2 className="text-center text-primaryBeige">
                             This isn’t just about saving shrimp—it’s about <br className="none768" />
@@ -365,9 +373,9 @@ const Aquaculture = () =>
                         </MotionWrapper>
                         <MotionWrapper className="col-md-7" variant={fadeRight}>
                             <ImageCustom
-                                src="/image/animal.webp"
+                                src="/image/animal-farming.jpg"
                                 alt="Selected Speaker by UN/FAO. Ba"
-                                style={{ height: 320 }}
+                                style={{ height: 340 }}
                             />
                         </MotionWrapper>
                     </div>

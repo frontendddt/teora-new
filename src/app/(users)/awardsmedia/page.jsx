@@ -118,9 +118,9 @@ const Award = () =>
                         </MotionWrapper>
                         <MotionWrapper className="col-md-7" variant={fadeRight}>
                             <ImageCustom
-                                src="/image/animal.webp"
+                                src="/image/animal-farming.jpg"
                                 alt="Selected Speaker by UN/FAO. Ba"
-                                style={{ height: 320 }}
+                                style={{ height: 340 }}
                             />
                         </MotionWrapper>
                     </div>

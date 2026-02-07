@@ -28,9 +28,8 @@
     height: 100%;
 }
 .protecting_shrimp {
-    max-width: 1000px !important;
-    height: 500px !important;
-    margin: 0 auto;
+    /* max-width: 1000px !important; */
+    height: 800px !important;
 }
 .infoimg {
     max-width: 450px !important;
@@ -54,9 +53,7 @@
         height: 200px !important;
     }
     .protecting_shrimp {
-        max-width: 1000px !important;
         height: 300px !important;
-        margin: 0 auto;
     }
     .infoimg {
         height: 500px !important;

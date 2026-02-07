@@ -54,10 +54,10 @@ const HealthManagment = () =>
                 <div className={`purpleBg tectureBg position-relative ${styles.angled_section}`}>  </div>
                 <div style={{ position: 'absolute', right: "22%", bottom: "-80px", zIndex: "1099" }}>
                     <ImageCustom
-                        src="/icons/slicky-home-1.svg"
+                        src="/icons/feed-icon.png"
                         alt=" More Resilient Protein Production"
                         className={styles.growing}
-                        style={{ width: "300px", height: "300px" }}
+                        style={{ width: "300px", height: "275px" }}
                     />
                 </div>
             </div>

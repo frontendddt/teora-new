@@ -12,13 +12,15 @@ import TimerCardSwiper from "./subComponent/TimerCardSwiper";
 import { OurTeam } from "./subComponent/OurTeam";
 import { MissionCardSwiper } from "./subComponent/MissionCardSwiper";
 import Innovation from "./subComponent/Innovation";
+import agriculture from "../../../public/image/agriculture_bg1.png";
+import securityText from "../../../public/bgImage/securityText.png";
 
 const StickyAbout = () =>
 {
     const { fadeDown } = useAnimationContext();
     return (
         <section className="sticky_container" >
-            <StickySections zIndex={1} bgImage={"/image/agriculture_bg1.png"}>
+            <StickySections zIndex={1} bgImage={agriculture.src}>
                 <WhatWereBuildingSlider swiperData={swiperAboutData} />
             </StickySections>
             <StickySections zIndex={2} extraClass="midPurpleBg missionCardSwiper_space">
@@ -32,7 +34,7 @@ const StickyAbout = () =>
                 />
             </StickySections>
 
-            <StickySections zIndex={3} extraClass="deepPurple" bgImage={"/bgImage/securityText.png"}
+            <StickySections zIndex={3} extraClass="deepPurple" bgImage={securityText.src}
                 style={{
                     backgroundPosition: 'top',
                     backgroundRepeat: 'no-repeat',

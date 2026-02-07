@@ -306,31 +306,47 @@ const TimerCardSwiper = ({ cardcontant, heading, varient = "default", headingsty
                                     </tr>
                                 </tbody>
                             </table>
-                            <p class="refrange_headings text-center text-primaryBeige purpleBg mb-2">Shrimp hold performance longer—even under pathogen pressure.</p>
+                            <p className="refrange_headings text-center text-primaryBeige purpleBg mb-2">Shrimp hold performance longer—even under pathogen pressure.</p>
                         </div>
                     )}
                     {slide.slide6 && (
                         <div className="padding2rem">
                             <ul className="list-unstyled text-primaryBeige">
                                 {[
-                                    "Pathogen-speciﬁc response—ensuring precise, effective immune support.",
-                                    "Rapid impact, faster recovery & Proven to reduce pathogen load.",
-                                    "Protects yield, reduces mortality, helps maintain harvest quality, size, and productivity.",
-                                    "Administered at ﬁrst signs of infection to limit spread, reduce mortality & safeguard harvest potential at risk"
-                                ].map((text, index) => (
-                                    <li key={index} className="d-flex align-items-center gap-3 mb-2 mb-sm-3">
+                                    {
+                                        text: "Pathogen-speciﬁc response—ensuring precise, effective immune support.",
+                                        img: "/icons/aqua-group-icon1.png",
+                                    },
+                                    {
+                                        text: "Rapid impact, faster recovery & Proven to reduce pathogen load.",
+                                        img: "/icons/aqua-group-icon2.png",
+                                    },
+                                    {
+                                        text: "Protects yield, reduces mortality, helps maintain harvest quality, size, and productivity.",
+                                        img: "/icons/aqua-group-icon3.png",
+                                    },
+                                    {
+                                        text: "Administered at ﬁrst signs of infection to limit spread, reduce mortality & safeguard harvest potential at risk",
+                                        img: "/icons/aqua-group-icon4.png",
+                                    },
+                                ].map((item, index) => (
+                                    <li
+                                        key={index}
+                                        className="d-flex align-items-center gap-3 mb-2 mb-sm-3"
+                                    >
                                         <Image
-                                            src="/icons/precise-icon1.png"
+                                            src={item.img}
                                             width={85}
                                             height={85}
-                                            alt="img"
+                                            alt="icon"
                                         />
                                         <p className="p14">
-                                            <strong>{text}</strong>
+                                            <strong>{item.text}</strong>
                                         </p>
                                     </li>
                                 ))}
                             </ul>
+
 
                         </div>
                     )}
